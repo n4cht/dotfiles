@@ -1,0 +1,28 @@
+[global_config]
+  handle_size = 0
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#303030:#e16b6a:#48a16f:#c0824f:#7b91c6:#df679a:#4e9e9e:#d0d0d0:#767676:#ffa3a3:#80d9a5:#f7b985:#b0c7fc:#ff9fd4:#85d5d4:#ffffff"
+    cursor_shape = underline
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#a8a8a8"
+    icon_bell = False
+    show_titlebar = False
+    antialias = False
+    font = ProFont 8
+    background_color = "#262626"
+    allow_bold = False
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

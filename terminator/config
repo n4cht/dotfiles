@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#2e3436:#c73232:#897fc9:#8d67ab:#5b74b0:#75507b:#06989a:#d3d7cf:#555753:#c73232:#897fc9:#926fae:#78a0d4:#8d67ab:#34e2e2:#eeeeec"
+    use_system_font = False
+    foreground_color = "#000000"
+    use_theme_colors = True
+    show_titlebar = False
+    antialias = False
+    font = Pragmata TT 7
+    background_color = "#ffffff"
+    allow_bold = False
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
